@@ -1,11 +1,32 @@
-# XPC-MW5 Programming in .NET and C#, Organizational Details
+# XPC-MW5 Programming in .NET and C#, Organizational Details <!-- omit in toc -->
 
-# MS Teams
+
+## Obsah <!-- omit in toc -->
+
+- [MS Teams](#ms-teams)
+- [Aktuality k předmětu](#aktuality-k-předmětu)
+- [Přednášky](#přednášky)
+- [Cvičení](#cvičení)
+- [Projekt](#projekt)
+- [Nástroje použity ve cvičeních](#nástroje-použity-ve-cvičeních)
+- [Q&A](#qa)
+- [Výuka - bodové rozdělení](#výuka---bodové-rozdělení)
+- [Vyučující](#vyučující)
+- [Užitečné odkazy](#užitečné-odkazy)
+  - [Learning resources:](#learning-resources)
+  - [Blogs](#blogs)
+  - [Repos](#repos)
+    - [Desktop](#desktop)
+    - [Web](#web)
+    - [Others](#others)
+  - [People to follow on twitter:](#people-to-follow-on-twitter)
+
+## MS Teams
 
 Pro připojení do týmu **XPC-MW5-2021** použijte přístupový kód **z4pwlvv**.
 
 ---
-# Aktuality k předmětu 
+## Aktuality k předmětu 
 
 - **22.09.2020** | *Jan Pluskal* | [Visual Studio 2019 Enterprise](https://aka.ms/devtoolsforteaching) je nově dostupné v Azure Dev Tools for Teaching. Přihlášení je nutné s loginem z domény VUT, tj xlogin00@vutbr.cz
 - **07.02.2021** | *Patrik Švikuha* | Při vytváření repozitáře respektujte schéma ze [zadání](/Project/README.md) *https://dev.azure.com/xpc-mw5-2021-team0000/project*. Je nezbytně nutné použít Vaše účty z doménu *vutbr.cz*. Do Vašich repozitářů pro projekt přidejte účet **uciteliw5@vutbr.cz**. Pokud uděláte chybu a pouze nesedí url, dá se v nastavení změnit.
@@ -13,7 +34,7 @@ Pro připojení do týmu **XPC-MW5-2021** použijte přístupový kód **z4pwlvv
   - Pokud bude kolize s existující organizací, použijte suffix *team0000-01*.
 
 ---
-# Přednášky
+## Přednášky
 
 [Organizace kurzu](https://gitpitch.com/fitiw/xpc-mw5?grs=github&t=white&p=Lectures%2FLecture_00#/)
 
@@ -41,7 +62,7 @@ Pro připojení do týmu **XPC-MW5-2021** použijte přístupový kód **z4pwlvv
 
 ---
 
-# Cvičení 
+## Cvičení 
 Cvičení jsou demonstrační. Pokud možno, přineste si vlastní zařízení na kterém budete moct cvičení aktivně zúčastnit. Bude potřeba vývojové prostředí ideálně Visual Studio 2019 / Rider / VSCode.
 
 | Typ                  | Místnost    | Čas            |
@@ -61,7 +82,7 @@ Cvičení jsou demonstrační. Pokud možno, přineste si vlastní zařízení n
 
 ---
 
-# Projekt
+## Projekt
 * Projekt bude vypracovaný v 3-členném týmu. 
 
 | Fáze | Deadline   | Obsah                                   |
@@ -76,7 +97,7 @@ Cvičení jsou demonstrační. Pokud možno, přineste si vlastní zařízení n
   * projekt musí bezpodmínečně obsahovat **Must have features!**
 
 --- 
-# Nástroje použity ve cvičeních
+## Nástroje použity ve cvičeních
 
 | Nástroj                                                                                              | Typ                | Popis                                                                                                                             |
 | ---------------------------------------------------------------------------------------------------- | ------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
@@ -98,35 +119,86 @@ Cvičení jsou demonstrační. Pokud možno, přineste si vlastní zařízení n
 | [GitFlow](https://marketplace.visualstudio.com/items?itemName=vs-publisher-57624.GitFlowforVisualStudio2017)                            | Doplněk            | GitFlow                                        |
 
 --- 
-# Q&A
+## Q&A
 
 * Q: Slyšel jsem, že lze uznat místo projektu i bakalářskou práci nebo projekt do jiného předmětu napsaný v C#, je to pravda?
 * A: Ano, ale projekt musí splňovat obecná kriteria (správný datový návrh, včetně dědičnosti a modifikátorů přístupu, SOLID a CleanCode) a musí být v C#. O tuto možnost žádejte indiviuálně po skončení přednášky.
 
 ---
-# Výuka - bodové rozdělení
+## Výuka - bodové rozdělení
 
 | Typ výuky | Maximální bodový zisk |
 | --------- | --------------------- |
 | Projekt   | 100                   |
 
 --- 
-# Vyučující
+## Vyučující
 * [Martin Dybal](https://www.dybal.it/)
 * [Tibor Jašek](mailto:tibor.jasek@gmail.com )
 * [Patrik Švikruha](mailto:patrik.svikruha@gmail.com )
 * [Michal Tichý](mailto:edu@tichymichal.net )
 
 --- 
-# Užitečné odkazy
-* [Entity framework tutorial](http://www.entityframeworktutorial.net/code-first/entity-framework-code-first.aspx)
-* [R. C. Martin SOLID](https://youtu.be/TMuno5RZNeE?t=757) Bob Martin SOLID Principles of Object Oriented and Agile Design 
-* [Resharper features](https://www.jetbrains.com/resharper/features/) and how to use them.
-* [Pro Git book](https://git-scm.com/book/en/v2)
 
---- 
-# Užitečná literatura
+## Užitečné odkazy
+
+* [Pro Git book](https://git-scm.com/book/en/v2)
 * [C# 7.0 in a Nutshell](http://www.albahari.com/nutshell/about.aspx), Ben Albahari, Joseph Albahari
-* [Clean Code: A Handbook of Agile Software Craftsmanship](https://books.google.cz/books?id=hjEFCAAAQBAJ), Robert C. Martin
+
+### Learning resources:
+* https://docs.microsoft.com/en-us/learn/browse/?products=dotnet&roles=developer
+* https://github.com/FitIW/ICS
+* https://github.com/FitIW/5
+* https://knowledge-base.havit.cz/
+* https://www.wug.cz/zaznamy
+* https://www.youtube.com/channel/UCvtT19MZW8dq5Wwfu6B0oxw
+* https://www.reddit.com/r/dotnet/
+* https://www.reddit.com/r/dotnetcore/
+* https://www.reddit.com/r/aspnetcore/
+
+### Blogs
+
+* https://andrewlock.net/
+* https://tooslowexception.com/
+* https://www.hanselman.com/blog/
+* https://www.codejourney.net/net-internals/
+* https://csharpdigest.net
+
+### Repos
+
+* https://github.com/dotnet
+* https://github.com/microsoft/MSBuildSdks
+* https://github.com/dotnet/project-system
+* https://github.com/dotnet/roslyn /
+* https://github.com/dotnet/roslyn-analyzers
+* https://github.com/dotnet/efcore
+#### Desktop
+
+* https://github.com/dotnet/wpf
+* https://github.com/dotnet/winforms
+#### Web
+* https://github.com/dotnet/aspnetcore
+
+#### Others
+
+* https://github.com/kgrzybek/modular-monolith-with-ddd
+* https://github.com/quozd/awesome-dotnet
+* [R. C. Martin SOLID](https://youtu.be/TMuno5RZNeE?t=757) Bob Martin SOLID Principles of Object Oriented and Agile Design 
 * [Agile Principles, Patterns, and Practices in C#](https://books.google.cz/books?id=hckt7v6g09oC), Robert C. Martin
 * [C# 3.0 Design Patterns](https://books.google.cz/books?id=pD2XMZLGUAYC), Judith Bishop
+* [Clean Code: A Handbook of Agile Software Craftsmanship](https://books.google.cz/books?id=hjEFCAAAQBAJ), Robert C. Martin
+* [Resharper features](https://www.jetbrains.com/resharper/features/) and how to use them.
+### People to follow on twitter:
+
+* https://twitter.com/davidfowl
+* https://twitter.com/konradkokosa
+* https://twitter.com/shanselman
+* https://twitter.com/scottgu
+* https://twitter.com/ben_a_adams
+* https://twitter.com/terrajobst
+* https://twitter.com/coolcsh
+* https://twitter.com/maoni0
+* https://twitter.com/matthewwarren
+* https://twitter.com/SitnikAdam
+* https://twitter.com/dr_dimaka
+* https://twitter.com/csharpdigest

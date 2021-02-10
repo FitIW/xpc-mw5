@@ -114,7 +114,7 @@ Cvičení jsou demonstrační. Pokud možno, přineste si vlastní zařízení n
 # Vyučující
 * [Martin Dybal](https://www.dybal.it/)
 * [Tibor Jašek](mailto:tibor.jasek@gmail.com )
-* [Patrik Švikruha](mailto:patrik.svikruha@gmail.com )
+* [Patrik Švikruha](mailto:patrik.svikruha.dev@gmail.com )
 * [Michal Tichý](mailto:edu@tichymichal.net )
 
 --- 

@@ -84,6 +84,7 @@ Cvičení jsou demonstrační. Pokud možno, přineste si vlastní zařízení n
 ---
 
 ## Projekt
+  Zadání projektu najdete [zde](Project/README.md).
 * Projekt bude vypracovaný v 3-členném týmu. 
 
 | Fáze | Deadline   | Obsah                                   |

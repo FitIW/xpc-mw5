@@ -23,7 +23,8 @@
 
 ## MS Teams
 
-Pro připojení do týmu **XPC-MW5-2021** použijte přístupový kód **z4pwlvv**.
+Pro připojení do týmu **XPC-MW5-2021** použijte přístupový kód **z4pwlvv** (kód je platný jenom pro VUT tenant => login s xXYZ@vutbr.cz). 
+Pri problémech se obraťte na [Patrik Švikruha](mailto:patrik.svikruha.dev@gmail.com?subject=[XPC-MW5]%20Problem%20s%20MSTeams)
 
 ---
 ## Aktuality k předmětu 
@@ -134,9 +135,9 @@ Cvičení jsou demonstrační. Pokud možno, přineste si vlastní zařízení n
 --- 
 ## Vyučující
 * [Martin Dybal](https://www.dybal.it/)
-* [Tibor Jašek](mailto:tibor.jasek@gmail.com )
-* [Patrik Švikruha](mailto:patrik.svikruha.dev@gmail.com )
-* [Michal Tichý](mailto:edu@tichymichal.net )
+* [Tibor Jašek](mailto:tibor.jasek@gmail.com)
+* [Patrik Švikruha](mailto:patrik.svikruha.dev@gmail.com)
+* [Michal Tichý](mailto:edu@tichymichal.net)
 
 --- 
 

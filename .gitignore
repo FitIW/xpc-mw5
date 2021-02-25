@@ -260,6 +260,8 @@ paket-files/
 __pycache__/
 *.pyc
 
-.vscode
-
-appsettings.*.json
+# this disable all files in folder from tracking
+.vscode/*
+# this explixitly add these specific files to tracking
+!.vscode/extensions.json
+!.vscode/settings.json

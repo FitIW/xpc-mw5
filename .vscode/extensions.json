@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        // markdown extensions
+        "yzhang.markdown-all-in-one",
+        "davidanson.vscode-markdownlint",
+        "mushan.vscode-paste-image",
+        // support for editorconfig in vscode
+        "editorconfig.editorconfig"
+    ]
+}

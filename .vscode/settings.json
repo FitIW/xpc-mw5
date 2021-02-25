@@ -1,0 +1,4 @@
+{
+    "markdown.extension.toc.unorderedList.marker": "*",
+    "pasteImage.path": "${projectRoot}/.attachments/",
+}

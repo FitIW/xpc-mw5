@@ -1,25 +1,24 @@
 # XPC-MW5 Programming in .NET and C#, Organizational Details <!-- omit in toc -->
 
-
 ## Obsah <!-- omit in toc -->
 
-- [MS Teams](#ms-teams)
-- [Aktuality k předmětu](#aktuality-k-předmětu)
-- [Přednášky](#přednášky)
-- [Cvičení](#cvičení)
-- [Projekt](#projekt)
-- [Nástroje použity ve cvičeních](#nástroje-použity-ve-cvičeních)
-- [Q&A](#qa)
-- [Výuka - bodové rozdělení](#výuka---bodové-rozdělení)
-- [Vyučující](#vyučující)
-- [Užitečné odkazy](#užitečné-odkazy)
-  - [Learning resources:](#learning-resources)
-  - [Blogs](#blogs)
-  - [Repos](#repos)
-    - [Desktop](#desktop)
-    - [Web](#web)
-    - [Others](#others)
-  - [People to follow on twitter:](#people-to-follow-on-twitter)
+* [MS Teams](#ms-teams)
+* [Aktuality k předmětu](#aktuality-k-předmětu)
+* [Přednášky](#přednášky)
+* [Cvičení](#cvičení)
+* [Projekt](#projekt)
+* [Nástroje použity ve cvičeních](#nástroje-použity-ve-cvičeních)
+* [Q&A](#qa)
+* [Výuka - bodové rozdělení](#výuka---bodové-rozdělení)
+* [Vyučující](#vyučující)
+* [Užitečné odkazy](#užitečné-odkazy)
+  * [Learning resources:](#learning-resources)
+  * [Blogs](#blogs)
+  * [Repos](#repos)
+    * [Desktop](#desktop)
+    * [Web](#web)
+    * [Others](#others)
+  * [People to follow on twitter:](#people-to-follow-on-twitter)
 
 ## MS Teams
 

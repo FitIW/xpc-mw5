@@ -265,3 +265,4 @@ __pycache__/
 # this explixitly add these specific files to tracking
 !.vscode/extensions.json
 !.vscode/settings.json
+!.vscode/spellright.dict

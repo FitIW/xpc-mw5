@@ -19,8 +19,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{B0D294
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CookBook.Models", "CookBook.Models\CookBook.Models.csproj", "{55F90B9C-084E-49FC-9D61-A638068886E2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CookBook.Web", "CookBook.Web\CookBook.Web.csproj", "{B29892E5-899B-4AEC-A763-C5AB7F4893C7}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Solution Items", ".Solution Items", "{AF8DF689-E5D1-47DA-92B8-AF90E1BDCE95}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
@@ -57,10 +55,6 @@ Global
 		{55F90B9C-084E-49FC-9D61-A638068886E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55F90B9C-084E-49FC-9D61-A638068886E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55F90B9C-084E-49FC-9D61-A638068886E2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B29892E5-899B-4AEC-A763-C5AB7F4893C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B29892E5-899B-4AEC-A763-C5AB7F4893C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B29892E5-899B-4AEC-A763-C5AB7F4893C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B29892E5-899B-4AEC-A763-C5AB7F4893C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

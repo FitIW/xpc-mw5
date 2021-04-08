@@ -58,7 +58,7 @@ Pri problémech se obraťte na [Patrik Švikruha](mailto:patrik.svikruha.dev@gma
 | 15. 04. | "Takhle napišete projekt"                                      |
 | 22. 04. | Clean code v C# (Roslyn analyzers, dotnet tools, editorconfig) |
 | 29. 04. | "Vývoj v praxi" (CI/CD, IaC, MVP, etika na code review)        |
-| 06. 05. | Bonus                                                          |
+| 06. 05. | "Aplikace skompilovaná, co dál?"                               |
 
 ---
 

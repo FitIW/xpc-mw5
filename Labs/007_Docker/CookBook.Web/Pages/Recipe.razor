@@ -1,0 +1,52 @@
+﻿@page "/recipe/{id:guid}"
+@using CookBook.Web.ApiClients
+@using System.Diagnostics.Eventing.Reader
+@using System.Security.Cryptography
+@inject ICookBookApiClient CookBookApiClient
+
+@if (recipe == null)
+{
+    <p>
+        <em>Loading...</em>
+    </p>
+}
+else{
+    <h3>@recipe.Name</h3>
+
+    <input type="text" @bind="@recipe.Name"/>
+
+
+    <img src="@recipe.ImageUrl"/>
+                               
+    <h3>Ingredients</h3>
+    
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Amount</th>
+        </tr>
+        @foreach (var ingredient in recipe.Ingredients)
+        {
+            <tr>
+                <td>@ingredient.Ingredient.Name</td>
+                <td>@ingredient.Amount @ingredient.UnitText</td>
+            </tr>
+        }
+
+    </table>
+
+}
+
+
+
+@code {
+    [Parameter]
+    public Guid Id { get; set; }
+    
+    private RecipeDetailModel recipe;
+
+    protected override async Task OnInitializedAsync()
+    {
+        recipe = await CookBookApiClient.RecipeGetByIdAsync(Id);
+    }
+}

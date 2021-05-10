@@ -138,6 +138,7 @@ Cvičení jsou demonstrační. Pokud možno, přineste si vlastní zařízení n
 * [Tibor Jašek](mailto:tibor.jasek@gmail.com)
 * [Patrik Švikruha](mailto:patrik.svikruha.dev@gmail.com)
 * [Michal Tichý](mailto:edu@tichymichal.net)
+* [Martin Bruzina](https://bruzina.cz/)
 
 --- 
 

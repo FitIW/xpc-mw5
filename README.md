@@ -12,13 +12,13 @@
 * [Výuka - bodové rozdělení](#výuka---bodové-rozdělení)
 * [Vyučující](#vyučující)
 * [Užitečné odkazy](#užitečné-odkazy)
-  * [Learning resources:](#learning-resources)
+  * [Learning resources](#learning-resources)
   * [Blogs](#blogs)
   * [Repos](#repos)
     * [Desktop](#desktop)
     * [Web](#web)
     * [Others](#others)
-  * [People to follow on twitter:](#people-to-follow-on-twitter)
+  * [People to follow on twitter](#people-to-follow-on-twitter)
 
 ## Discord
 
@@ -61,8 +61,9 @@ Pro komunikaci se využíva Discord. Pri problémech se obraťte na [Patrik Švi
 
 ---
 
-## Cvičení 
-Cvičení jsou demonstrační. Pokud možno, přineste si vlastní zařízení na kterém budete moct cvičení aktivně zúčastnit. Bude potřeba vývojové prostředí ideálně Visual Studio 2019 / Rider / VSCode.
+## Cvičení
+
+Cvičení jsou demonstrační. Pokud možno, přineste si vlastní zařízení na kterém budete moct cvičení aktivně zúčastnit. Bude potřeba vývojové prostředí ideálně Visual Studio 2022 / Rider / VSCode.
 
 | Typ                  | Místnost    | Čas            |
 | -------------------- | ----------- | -------------- |
@@ -82,8 +83,10 @@ Cvičení jsou demonstrační. Pokud možno, přineste si vlastní zařízení n
 ---
 
 ## Projekt
-  Zadání projektu najdete [zde](Project/README.md).
-* Projekt bude vypracovaný v 3-členném týmu. 
+
+Zadání projektu najdete [zde](Project/README.md).
+
+* Projekt bude vypracovaný v 3-členném týmu.
 
 | Fáze | Deadline   | Obsah                                   |
 | ---- | ---------- | --------------------------------------- |
@@ -96,7 +99,8 @@ Cvičení jsou demonstrační. Pokud možno, přineste si vlastní zařízení n
   * nemusíte chodit v obleku...,
   * projekt musí bezpodmínečně obsahovat **Must have features!**
 
---- 
+---
+
 ## Nástroje použity ve cvičeních
 
 | Nástroj                                                                                              | Typ                | Popis                                                                                                                             |
@@ -118,35 +122,40 @@ Cvičení jsou demonstrační. Pokud možno, přineste si vlastní zařízení n
 | [OzCode](https://www.oz-code.com/)                                                                                                      | Doplněk            | Advanced debugging tools                       |
 | [GitFlow](https://marketplace.visualstudio.com/items?itemName=vs-publisher-57624.GitFlowforVisualStudio2017)                            | Doplněk            | GitFlow                                        |
 
---- 
+---
+
 ## Q&A
 
 * Q: Slyšel jsem, že lze uznat místo projektu i bakalářskou práci nebo projekt do jiného předmětu napsaný v C#, je to pravda?
 * A: Ano, ale projekt musí splňovat obecná kriteria (správný datový návrh, včetně dědičnosti a modifikátorů přístupu, SOLID a CleanCode) a musí být v C#. O tuto možnost žádejte indiviuálně po skončení přednášky.
 
 ---
+
 ## Výuka - bodové rozdělení
 
 | Typ výuky | Maximální bodový zisk |
 | --------- | --------------------- |
 | Projekt   | 100                   |
 
---- 
+---
+
 ## Vyučující
+
 * [Martin Dybal](https://www.dybal.it/)
 * [Tibor Jašek](mailto:tibor.jasek@gmail.com)
 * [Patrik Švikruha](mailto:patrik.svikruha.dev@gmail.com)
 * [Michal Tichý](mailto:edu@tichymichal.net)
 * [Martin Bruzina](https://bruzina.cz/)
 
---- 
+---
 
 ## Užitečné odkazy
 
 * [Pro Git book](https://git-scm.com/book/en/v2)
 * [C# 7.0 in a Nutshell](http://www.albahari.com/nutshell/about.aspx), Ben Albahari, Joseph Albahari
 
-### Learning resources:
+### Learning resources
+
 * https://docs.microsoft.com/en-us/learn/browse/?products=dotnet&roles=developer
 * https://github.com/FitIW/ICS
 * https://github.com/FitIW/5
@@ -173,23 +182,27 @@ Cvičení jsou demonstrační. Pokud možno, přineste si vlastní zařízení n
 * https://github.com/dotnet/roslyn /
 * https://github.com/dotnet/roslyn-analyzers
 * https://github.com/dotnet/efcore
+
 #### Desktop
 
 * https://github.com/dotnet/wpf
 * https://github.com/dotnet/winforms
+  
 #### Web
+
 * https://github.com/dotnet/aspnetcore
 
 #### Others
 
 * https://github.com/kgrzybek/modular-monolith-with-ddd
 * https://github.com/quozd/awesome-dotnet
-* [R. C. Martin SOLID](https://youtu.be/TMuno5RZNeE?t=757) Bob Martin SOLID Principles of Object Oriented and Agile Design 
+* [R. C. Martin SOLID](https://youtu.be/TMuno5RZNeE?t=757) Bob Martin SOLID Principles of Object Oriented and Agile Design
 * [Agile Principles, Patterns, and Practices in C#](https://books.google.cz/books?id=hckt7v6g09oC), Robert C. Martin
 * [C# 3.0 Design Patterns](https://books.google.cz/books?id=pD2XMZLGUAYC), Judith Bishop
 * [Clean Code: A Handbook of Agile Software Craftsmanship](https://books.google.cz/books?id=hjEFCAAAQBAJ), Robert C. Martin
-* [Resharper features](https://www.jetbrains.com/resharper/features/) and how to use them.
-### People to follow on twitter:
+* [Resharper features](https://www.jetbrains.com/resharper/features/) and how to use them
+
+### People to follow on twitter
 
 * https://twitter.com/davidfowl
 * https://twitter.com/konradkokosa

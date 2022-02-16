@@ -2,7 +2,7 @@
 
 ## Obsah <!-- omit in toc -->
 
-* [MS Teams](#ms-teams)
+* [Discord](#discord)
 * [Aktuality k předmětu](#aktuality-k-předmětu)
 * [Přednášky](#přednášky)
 * [Cvičení](#cvičení)
@@ -20,17 +20,16 @@
     * [Others](#others)
   * [People to follow on twitter:](#people-to-follow-on-twitter)
 
-## MS Teams
+## Discord
 
-Pro připojení do týmu **XPC-MW5-2021** použijte přístupový kód **z4pwlvv** (kód je platný jenom pro VUT tenant => login s xXYZ@vutbr.cz). 
-Pri problémech se obraťte na [Patrik Švikruha](mailto:patrik.svikruha.dev@gmail.com?subject=[XPC-MW5]%20Problem%20s%20MSTeams)
+Pro komunikaci se využíva Discord. Pri problémech se obraťte na [Patrik Švikruha](mailto:patrik.svikruha.dev@gmail.com?subject=[XPC-MW5]%20Problem%20s%20MSTeams)
 
 ---
 ## Aktuality k předmětu 
 
-- **22.09.2020** | *Jan Pluskal* | [Visual Studio 2019 Enterprise](https://aka.ms/devtoolsforteaching) je nově dostupné v Azure Dev Tools for Teaching. Přihlášení je nutné s loginem z domény VUT, tj xlogin00@vutbr.cz
-- **07.02.2021** | *Patrik Švikuha* | Při vytváření repozitáře respektujte schéma ze [zadání](/Project/README.md) *https://dev.azure.com/xpc-mw5-2021-team0000/project*. Je nezbytně nutné použít Vaše účty z doménu *vutbr.cz*. Do Vašich repozitářů pro projekt přidejte účet **uciteliw5@vutbr.cz**. Pokud uděláte chybu a pouze nesedí url, dá se v nastavení změnit.
-  - Pokud máte vytvořeno pod soukromými účty, je třeba vytvořit projekt znovu pod univerzitními a pushnout existující repozitář tak, aby Vám zůstala historie včetně správných časů commitů. 
+- **07.02.2022** | *Patrik Švikuha* | [Visual Studio 2022 Enterprise](https://azureforeducation.microsoft.com/devtools) je dostupné v Azure for Education. Přihlášení je nutné s loginem z domény VUT, tj xlogin00@vutbr.cz
+- **07.02.2022** | *Patrik Švikuha* | Při vytváření repozitáře respektujte schéma ze [zadání](/Project/README.md) *https://dev.azure.com/xpc-mw5-2021-team0000/project*. Je nezbytně nutné použít Vaše účty z doménu *vutbr.cz*. Do Vašich repozitářů pro projekt přidejte účet **uciteliw5@vutbr.cz**. Pokud uděláte chybu a pouze nesedí url, dá se v nastavení změnit.
+  - Pokud máte vytvořeno pod soukromými účty, je třeba vytvořit projekt znovu pod univerzitními a pushnout existující repozitář tak, aby Vám zůstala historie včetně správných časů commitů.
   - Pokud bude kolize s existující organizací, použijte suffix *team0000-01*.
 
 ---
@@ -40,25 +39,25 @@ Pri problémech se obraťte na [Patrik Švikruha](mailto:patrik.svikruha.dev@gma
 
 | Fakulta | Místnost    | Čas            |
 | ------- | ----------- | -------------- |
-| FEKT    | T12/SD 2.99 | Čt 15:00-16:50 |
+| FEKT    | T12/SD 1.49 | Čt 15:00-16:50 |
 
 +++
 
-| Datum   | Téma přednášky                                                 |
-| ------- | -------------------------------------------------------------- |
-| 11. 02. | Úvod do kurzu, Úvod do jazyka C# a platformy .NET, část 1.     |
-| 18. 02. | Úvod do objektově orientovaného programování                   |
-| 25. 02. | Úvod do jazyka C# a platformy .NET, část 2.                    |
-| 04. 03. | Generic host (Inversion of Control, logging, konfigurace)      |
-| 11. 03. | ASP.NET Core (Web API, MVC), CI/CD na Azure DevOps a Azure     |
-| 18. 03. | Clean Code                                                     |
-| 25. 03. | Testovaní                                                      |
-| 01. 04. | ASP.NET Core Blazor (Radzen)                                   |
-| 08. 04. | Web frontend                                                   |
-| 15. 04. | "Takhle napišete projekt"                                      |
-| 22. 04. | Clean code v C# (Roslyn analyzers, dotnet tools, editorconfig) |
-| 29. 04. | "Vývoj v praxi" (CI/CD, IaC, MVP, etika na code review)        |
-| 06. 05. | "Aplikace skompilovaná, co dál?"                               |
+| č   | Datum   | Téma přednášky                                                 | Přednášejíci    |
+| --- | ------- | -------------------------------------------------------------- | --------------- |
+| 1.  | 10. 02. | Úvod do kurzu, Úvod do jazyka C# a platformy .NET, část 1.     | Patrik Švikruha |
+| 2.  | 17. 02. | Úvod do objektově orientovaného programování                   | Patrik Švikruha |
+| 3.  | 24. 02. | Úvod do jazyka C# a platformy .NET, část 2.                    | Patrik Švikruha |
+| 4.  | 03. 03. | Generic host (Inversion of Control, logging, konfigurace)      | Michal Mrnuštík |
+| 5.  | 10. 03. | Clean code a C# (Roslyn analyzers, dotnet tools, editorconfig) | Patrik Švikruha |
+| 6.  | 17. 03. | ASP.NET Core (Web API, MVC)                                    | Michal Mrnuštík |
+| 7.  | 24. 03. | Testovaní                                                      |                 |
+| 8.  | 01. 04. | ASP.NET Core Blazor (Radzen)                                   | Patrik Švikruha |
+| 9.  | 07. 04. | Web frontend                                                   | Maroš Janota    |
+| 10. | 15. 04. | Webové frameworky                                              | Patrik Švikruha |
+| 11. | 22. 04. | CI/CD, Azure DevOps, Github                                    | Patrik Švikruha |
+| 12. | 29. 04. | "Vývoj v praxi" (IaC, MVP, etika na code review)               | Patrik Švikruha |
+| 13. | 06. 05. | "Aplikace skompilovaná, co dál?"                               | Martin Bružina  |
 
 ---
 
@@ -67,17 +66,17 @@ Cvičení jsou demonstrační. Pokud možno, přineste si vlastní zařízení n
 
 | Typ                  | Místnost    | Čas            |
 | -------------------- | ----------- | -------------- |
-| Demonstrační cvičení | T12/SD 2.99 | Čt 17:00-18:50 |
+| Demonstrační cvičení | T12/SD 1.49 | Čt 17:00-18:50 |
 
 +++
 
 | Datum   | Téma cvičení                                                           |
 | ------- | ---------------------------------------------------------------------- |
-| 11. 02. | C# tooling, VS - založení projektu ASP.NET Core, založení Azure DevOps |
-| 18. 02. | Objektovo orientované programování v C#                                |
-| 25. 02. | LINQ, generika, async/await, Task                                      |
-| 11. 03. | ASP.NET Core Web API, CI/CD                                            |
-| 25. 03. | Testovaní                                                              |
+| 10. 02. | C# tooling, VS - založení projektu ASP.NET Core, založení Azure DevOps |
+| 17. 02. | Objektovo orientované programování v C#                                |
+| 24. 02. | LINQ, generika, async/await, Task                                      |
+| 17. 03. | ASP.NET Core Web API, CI/CD                                            |
+| 24. 03. | Testovaní                                                              |
 | 01. 04. | ASP.NET Blazor + napojení na Web API                                   |
 
 ---

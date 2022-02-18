@@ -157,6 +157,7 @@ Zadání projektu najdete [zde](Project/README.md).
 ### Learning resources
 
 * https://docs.microsoft.com/en-us/learn/browse/?products=dotnet&roles=developer
+  * https://docs.microsoft.com/en-us/users/patriksvikruha-4049/collections/rjg8f65oqjrej1
 * https://github.com/FitIW/ICS
 * https://github.com/FitIW/5
 * https://knowledge-base.havit.cz/

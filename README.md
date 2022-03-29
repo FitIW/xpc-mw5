@@ -7,9 +7,9 @@
 * [Přednášky](#přednášky)
 * [Cvičení](#cvičení)
 * [Projekt](#projekt)
+* [Výuka - bodové rozdělení](#výuka---bodové-rozdělení)
 * [Nástroje použity ve cvičeních](#nástroje-použity-ve-cvičeních)
 * [Q&A](#qa)
-* [Výuka - bodové rozdělení](#výuka---bodové-rozdělení)
 * [Vyučující](#vyučující)
 * [Užitečné odkazy](#užitečné-odkazy)
   * [Learning resources](#learning-resources)
@@ -22,13 +22,13 @@
 
 ## Discord
 
-Pro komunikaci se využíva Discord. Pri problémech se obraťte na [Patrik Švikruha](mailto:patrik.svikruha.dev@gmail.com?subject=[XPC-MW5]%20Problem%20s%20MSTeams)
+Pro komunikaci se využíva Discord. Pri problémech se obraťte na [Patrik Švikruha](mailto:patrik.svikruha.dev@gmail.com?subject=[XPC-MW5]%20Problem%20s%20Discord)
 
 ---
 ## Aktuality k předmětu 
 
 - **07.02.2022** | *Patrik Švikuha* | [Visual Studio 2022 Enterprise](https://azureforeducation.microsoft.com/devtools) je dostupné v Azure for Education. Přihlášení je nutné s loginem z domény VUT, tj xlogin00@vutbr.cz
-- **07.02.2022** | *Patrik Švikuha* | Při vytváření repozitáře respektujte schéma ze [zadání](/Project/README.md) *https://dev.azure.com/xpc-mw5-2021-team0000/project*. Je nezbytně nutné použít Vaše účty z doménu *vutbr.cz*. Do Vašich repozitářů pro projekt přidejte účet **uciteliw5@vutbr.cz**. Pokud uděláte chybu a pouze nesedí url, dá se v nastavení změnit.
+- **07.02.2022** | *Patrik Švikuha* | Při vytváření repozitáře respektujte schéma ze [zadání](/Project/README.md) *https://dev.azure.com/xpc-mw5-202Y-teamXXXX/project* (Y => aktuálny rok, XXXX vaše číslo teamu). Je nezbytně nutné použít Vaše účty z doménu *vutbr.cz*. Do Vašich repozitářů pro projekt přidejte účet **uciteliw5@vutbr.cz**. Pokud uděláte chybu a pouze nesedí url, dá se v nastavení změnit.
   - Pokud máte vytvořeno pod soukromými účty, je třeba vytvořit projekt znovu pod univerzitními a pushnout existující repozitář tak, aby Vám zůstala historie včetně správných časů commitů.
   - Pokud bude kolize s existující organizací, použijte suffix *team0000-01*.
 
@@ -43,21 +43,21 @@ Pro komunikaci se využíva Discord. Pri problémech se obraťte na [Patrik Švi
 
 +++
 
-| č   | Datum   | Téma přednášky                                                 | Přednášejíci    |
-| --- | ------- | -------------------------------------------------------------- | --------------- |
-| 1.  | 10. 02. | Úvod do kurzu, Úvod do jazyka C# a platformy .NET, část 1.     | Patrik Švikruha |
-| 2.  | 17. 02. | Úvod do objektově orientovaného programování                   | Patrik Švikruha |
-| 3.  | 24. 02. | Úvod do jazyka C# a platformy .NET, část 2.                    | Patrik Švikruha |
-| 4.  | 03. 03. | Generic host (Inversion of Control, logging, konfigurace)      | Michal Mrnuštík |
-| 5.  | 10. 03. | Clean code a C# (Roslyn analyzers, dotnet tools, editorconfig) | Patrik Švikruha |
-| 6.  | 17. 03. | ASP.NET Core (Web API, MVC)                                    | Michal Mrnuštík |
-| 7.  | 24. 03. | Testovaní                                                      |                 |
-| 8.  | 01. 04. | ASP.NET Core Blazor (Radzen)                                   | Patrik Švikruha |
-| 9.  | 07. 04. | Web frontend                                                   | Maroš Janota    |
-| 10. | 15. 04. | Webové frameworky                                              | Patrik Švikruha |
-| 11. | 22. 04. | CI/CD, Azure DevOps, Github                                    | Patrik Švikruha |
-| 12. | 29. 04. | "Vývoj v praxi" (IaC, MVP, etika na code review)               | Patrik Švikruha |
-| 13. | 06. 05. | "Aplikace skompilovaná, co dál?"                               | Martin Bružina  |
+| č   | Datum   | Téma přednášky                                                 | Přednášejíci                                               |
+| --- | ------- | -------------------------------------------------------------- | ---------------------------------------------------------- |
+| 1.  | 10. 02. | Úvod do kurzu, Úvod do jazyka C# a platformy .NET, část 1.     | [Patrik Švikruha][patrik.svikruha]                         |
+| 2.  | 17. 02. | Úvod do objektově orientovaného programování                   | [Patrik Švikruha][patrik.svikruha]                         |
+| 3.  | 24. 02. | Úvod do jazyka C# a platformy .NET, část 2.                    | [Patrik Švikruha][patrik.svikruha]                         |
+| 4.  | 03. 03. | Generic host (Inversion of Control, logging, konfigurace)      | [Michal Mrnuštík][michal.mrnustik]                         |
+| 5.  | 10. 03. | Clean code a C# (Roslyn analyzers, dotnet tools, editorconfig) | [Patrik Švikruha][patrik.svikruha]                         |
+| 6.  | 17. 03. | ASP.NET Core (Web API, MVC)                                    | [Michal Mrnuštík][michal.mrnustik]                         |
+| 7.  | 24. 03. | Testovaní, Specflow                                            | [Michal Tichý][michal.tichy], [Samuel Janek][samuel.janek] |
+| 8.  | 01. 04. | ASP.NET Core Blazor (Radzen)                                   | [Patrik Švikruha][patrik.svikruha]                         |
+| 9.  | 07. 04. | Web frontend                                                   | [Maroš Janota][maros.janota]                               |
+| 10. | 15. 04. | Webové frameworky                                              | [Patrik Švikruha][patrik.svikruha]                         |
+| 11. | 22. 04. | CI/CD, Azure DevOps, Github                                    | [Patrik Švikruha][patrik.svikruha]                         |
+| 12. | 29. 04. | "Vývoj v praxi" (IaC, MVP, etika na code review)               | [Patrik Švikruha][patrik.svikruha]                         |
+| 13. | 06. 05. | "Aplikace skompilovaná, co dál?"                               | [Martin Bružina][martin.bruzina]                           |
 
 ---
 
@@ -101,6 +101,14 @@ Zadání projektu najdete [zde](Project/README.md).
 
 ---
 
+## Výuka - bodové rozdělení
+
+| Typ výuky | Maximální bodový zisk |
+| --------- | --------------------- |
+| Projekt   | 100                   |
+
+---
+
 ## Nástroje použity ve cvičeních
 
 | Nástroj                                                                                              | Typ                | Popis                                                                                                                             |
@@ -131,21 +139,14 @@ Zadání projektu najdete [zde](Project/README.md).
 
 ---
 
-## Výuka - bodové rozdělení
-
-| Typ výuky | Maximální bodový zisk |
-| --------- | --------------------- |
-| Projekt   | 100                   |
-
----
-
 ## Vyučující
 
-* [Martin Dybal](https://www.dybal.it/)
-* [Tibor Jašek](mailto:tibor.jasek@gmail.com)
-* [Patrik Švikruha](mailto:patrik.svikruha.dev@gmail.com)
-* [Michal Tichý](mailto:edu@tichymichal.net)
-* [Martin Bruzina](https://bruzina.cz/)
+* [Patrik Švikruha][patrik.svikruha]
+* [Michal Mrnuštik][michal.mrnustik]
+* [Michal Tichý][michal.tichy]
+* [Samuel Janek][samuel.janek]
+* [Maroš Janota][maros.janota]
+* [Martin Bruzina][martin.bruzina]
 
 ---
 
@@ -217,3 +218,11 @@ Zadání projektu najdete [zde](Project/README.md).
 * https://twitter.com/SitnikAdam
 * https://twitter.com/dr_dimaka
 * https://twitter.com/csharpdigest
+
+<!-- links -->
+[patrik.svikruha]: https://patriksvikruha.com/
+[michal.mrnustik]: https://www.linkedin.com/in/michal-mrnu%C5%A1t%C3%ADk-31050b60/
+[michal.tichy]: mailto:edu@tichymichal.net
+[samuel.janek]: mailto:samueljanek17@gmail.com
+[maros.janota]: https://marosjanota.cz/
+[martin.bruzina]: https://bruzina.cz/

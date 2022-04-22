@@ -90,8 +90,8 @@ Zadání projektu najdete [zde](Project/README.md).
 
 | Fáze | Deadline   | Obsah                                   |
 | ---- | ---------- | --------------------------------------- |
-| 1    | 04.04.2021 | API                                     |
-| 2    | 07.05.2020 | Finalizace aplikace a následná obhajoba |
+| 1    | 04.04.2022 | API                                     |
+| 2    | 11.05.2022 | Finalizace aplikace a následná obhajoba |
 
 * Při obhajobě:
   * musí být přítomni všichni členové týmu,

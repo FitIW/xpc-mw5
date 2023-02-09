@@ -22,7 +22,7 @@
 
 ## Discord
 
-Pro komunikaci se využíva Discord. Pri problémech se obraťte na [Patrik Švikruha](mailto:patrik.svikruha.dev@gmail.com?subject=[XPC-MW5]%20Problem%20s%20Discord)
+Pro komunikaci se využíva Discord. Pri problémech se obraťte na [Patrik Švikruha](mailto:patrik.svikruha.dev@gmail.com?subject=[XPC-MW5]%20Problem%20s%20Discord)  
 [Discord server](https://discord.gg/r5auFqSJFG).
 
 ---

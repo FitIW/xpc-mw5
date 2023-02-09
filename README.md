@@ -9,7 +9,7 @@
 * [Projekt](#projekt)
 * [Výuka - bodové rozdělení](#výuka---bodové-rozdělení)
 * [Nástroje použity ve cvičeních](#nástroje-použity-ve-cvičeních)
-* [Q&A](#qa)
+* [Q\&A](#qa)
 * [Vyučující](#vyučující)
 * [Užitečné odkazy](#užitečné-odkazy)
   * [Learning resources](#learning-resources)
@@ -28,19 +28,14 @@ Pro komunikaci se využíva Discord. Pri problémech se obraťte na [Patrik Švi
 ---
 ## Aktuality k předmětu 
 
-- **07.02.2022** | *Patrik Švikuha* | [Visual Studio 2022 Enterprise](https://azureforeducation.microsoft.com/devtools) je dostupné v Azure for Education. Přihlášení je nutné s loginem z domény VUT, tj xlogin00@vutbr.cz
-- **07.02.2022** | *Patrik Švikuha* | Při vytváření repozitáře respektujte schéma ze [zadání](/Project/README.md) *https://dev.azure.com/xpc-mw5-202Y-teamXXXX/project* (Y => aktuálny rok, XXXX vaše číslo teamu). Je nezbytně nutné použít Vaše účty z doménu *vutbr.cz*. Do Vašich repozitářů pro projekt přidejte účet **uciteliw5@vutbr.cz**. Pokud uděláte chybu a pouze nesedí url, dá se v nastavení změnit.
-  - Pokud máte vytvořeno pod soukromými účty, je třeba vytvořit projekt znovu pod univerzitními a pushnout existující repozitář tak, aby Vám zůstala historie včetně správných časů commitů.
-  - Pokud bude kolize s existující organizací, použijte suffix *team0000-01*.
+- **09.02.2023** | *Patrik Švikuha* | Všetky aktuality budeme zverejnovať na Discorde v kanáli [#2023-general](https://discord.com/channels/941269657132879892/1073261087144816680)
 
 ---
 ## Přednášky
 
-[Organizace kurzu](https://gitpitch.com/fitiw/xpc-mw5?grs=github&t=white&p=Lectures%2FLecture_00#/)
-
 | Fakulta | Místnost    | Čas            |
 | ------- | ----------- | -------------- |
-| FEKT    | T12/SD 1.49 | Čt 15:00-16:50 |
+| FEKT    | T12/SD 1.49 | Čt 15:00-17:50 |
 
 +++
 

@@ -14,9 +14,7 @@ Zadání úmyslně není striktní, je Vám ponechána volnost, pro vlastní rea
 
 Jednoduchý e-shop
 
----
 ## Data
----
 
 V rámci dat, se kterými se bude pracovat budeme požadovat minimálně následující data.
 
@@ -49,9 +47,7 @@ V rámci dat, se kterými se bude pracovat budeme požadovat minimálně násled
 - Číselné hodnocení
 - Textové hodnocení
 
----
 ## Varianty projektu
----
 
 Projekt má dve varianty a je na vás akú z nich si vyberiete. Od vybranej varianty sa ďalej odvíja čo sa po vás bude vyžadovať v jednotlivých fázach odovzdania
 
@@ -69,9 +65,7 @@ Projekt má dve varianty a je na vás akú z nich si vyberiete. Od vybranej vari
     - Desktop - .NET MAUI / Avalonia UI
     - Web - Blazor / Vue / React
 
----
 ## Odovzdanie
----
 
 ### 1. fáza - spoločná pre obe varianty
 
@@ -95,9 +89,7 @@ Projekt má dve varianty a je na vás akú z nich si vyberiete. Od vybranej vari
 
 TODO - je dobre robiť integračné testy keď to API bude pravedpodobne shit code?
 
----
 ## Bonusy
----
 
 Bonusové body je možné získať za:
 - Logging

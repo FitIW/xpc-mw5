@@ -49,22 +49,24 @@ Pro komunikaci se využíva Discord. Pri problémech se obraťte na [Patrik Švi
 
 Cvičení jsou demonstrační. Pokud možno, přineste si vlastní zařízení na kterém budete moct cvičení aktivně zúčastnit. Bude potřeba vývojové prostředí ideálně Visual Studio 2022 / Rider / VSCode.
 
-## Projekt - TODO
+## Projekt
 
-Zadání projektu najdete [zde](Project/README.md).
-
+* Zadání projektu najdete [zde](Project/README.md).
 * Projekt bude vypracovaný v 3-členném týmu.
-
-| Fáze | Deadline   | Obsah                                   |
-| ---- | ---------- | --------------------------------------- |
-| 1    | 04.04.2022 | API                                     |
-| 2    | 11.05.2022 | Finalizace aplikace a následná obhajoba |
-
 * Při obhajobě:
   * musí být přítomni všichni členové týmu,
   * obhajovat projekt bude náhodně vybraný člen týmu,
   * nemusíte chodit v obleku...,
   * projekt musí bezpodmínečně obsahovat **Must have features!**
+
+### Deadlines
+
+TODO - upresnit terminy
+
+| Fáze | Deadline   |
+| ---- | ---------- |
+| 1    | 04.04.2022 |
+| 2    | 11.05.2022 |
 
 ## Výuka - bodové rozdělení
 

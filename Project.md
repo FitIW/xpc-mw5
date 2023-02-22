@@ -1,4 +1,41 @@
-# Zadání projektu
+# Project Overview
+
+## Project (repository) management in Github
+
+Project will be hosted on GitHub in a public git repository. Right now we are not using any organization/team so feel free to use your hosting space.
+
+There are several formal rules for repository:
+> See sample project https://github.com/PadreSVK/xpc-mw5-2023-armagedon. 
+
+* Project name must match regex `xpc-mw5-202[3-9]-(?!-)[a-z-]{4,20}$`, check your name https://regex101.com/r/jrW3fs/1
+* contain proper gitignore file
+* contain README.md
+  * members of the team => (member's emails used in commits)
+  * Choosen variant of the project (A||B)
+* contain License MIT
+
+From git history should be visible work of the whole team. If we figure out that some of the members are inactive we evaluate his score by 0. Collaboration will be done via *common repository with all members*, see [docs](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository) or *via forks*, see [docs](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
+
+
+
+### Golden Path (happy path)
+
+* work in one repository as collaborators 
+* for a chunk of functionality use pull requests
+* make sure that you use the same email to create commits (if you do this, use rebase || ask for help)
+* prepare PR for review 1
+  * PR to branch with HEAD on 1. commit
+  * tag finished commit with `release/2023/01`
+* prepare PR for review 2
+  * PR to branch with HEAD on commit with `release/2023/01` tag
+
+## Suggested tools
+
+### git
+
+* [GitHub Desktop](https://desktop.github.com/)
+* [others](https://git-scm.com/downloads/guis)
+
 
 TODO - zjednotiť jazyk
 

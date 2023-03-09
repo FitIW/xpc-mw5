@@ -1,0 +1,8 @@
+{
+  "number": 8,
+  "text": "this is text",
+  "settings": {
+    "numericProperty": 10,
+    "stringProperty": "this is text"
+  }
+}

@@ -1,168 +1,148 @@
-# Zadání projektu
+# Project Overview
 
-## Důležité upozornění
-Pro hodnocení projektu (a úspěšné absolvování předmětu) je nutno dokončit **obě 2 fáze projektu** a projekt **obhájit**. Pokud projekt nebude při obhajobě obsahovat základní funkcionalitu uvedenou v zadání, bude hodnocen 0 body. **Nespokojíme se tedy s nedokončeným projektem**. Tuhle poznámku sem dáváme proto, že se v předchozích  ročnících vyskytly týmy, které po dosáhnutí součtu 50 bodů za předmět po 1. fázi rozhodly nedokončit projekt a poté byly nemile překvapeni, když se po nich vyžadovala plná funkcionalita při obhajobě. Dejte si na to tedy prosím pozor.
+## Important note
 
-# Cíl
-Cílem je vytvořit použitelnou a snadno rozšiřitelnou aplikaci, která splňuje požadavky zadání. Aplikace nemá padat nebo zamrzávat.
+For successful completion of the course, both phases must be completed and the project must be successfully defended. The project must contain the functionality described above, or it will be classified with 0 points.
 
-Zadání úmyslně není striktní, je Vám ponechána volnost, pro vlastní realizaci. Při hodnocení je kladen důraz na technické zpracování a kvalitu kódu, ale hodnotíme i použitelnost a grafické zpracování aplikace. Pokud Vám přijde, že v zadání chybí nějaká funkcionalita, neváhejte ji doplnit. Pište aplikaci tak, aby jste ji sami chtěli používat.
+> For example, if you have completed 1 phase for 50 points, we require you to finish the second phase, or we will classify your project with 0 points.
 
-# Zadání - Webová aplikace e-shop
-Výsledná aplikace má sloužit jako jednoduchá simulace e-shopu.
+## Goal of project
 
----
-## Data
-V rámci dat, se kterými se bude pracovat budeme požadovat minimálně následující data.
 
-### Zboží
-- Název
-- Fotografie
-- Textový popis
-- Cena
-- Hmotnost
-- Počet kusů na skladě
-- Kategorie
-- Výrobce
-- Hodnocení
+Your goal is to create a [minimum valuable product (MVP)](https://en.wikipedia.org/wiki/Minimum_viable_product) based on the specification. The application must be functional on presentation. We require you to ship a quality project that could be extended in the future. As it will be public on GitHub, try your best while working on this project as it could help you find your first or new job ;) So feel free to realize yourself and improve your project with any improvements outside of our specification. We have allowed you the flexibility to choose which part you would like to focus on (naive BE + FE or robust BE with a database).
 
-### Kategorie
-- Název
+## Specification
 
-### Výrobce
-- Název
-- Textový popis
-- Obrázek (logo)
-- Země
-- Seznam zboží
+> Regarding the data with which you will work, we will require at least the following data.
 
-### Hodnocení
-- Číselné hodnocení
-- Textové hodnocení
+## Data models 
 
----
-## Funkcionalita
-Webová aplikace bude obsahovat několik stránek pro zobrazování a zadávání dat.
+### Commodity
 
-V zadání není požadováno perzistentní uložení dat. To znamená, že když se aplikace restartuje, tak může o data přijít. Nicméně bude nutno data ukládat za běhu aplikace, aby bylo možno demonstrovat, že když se například pomocí aplikace přidá nové zboží, tak se toto zboží zobrazí v seznamu zboží (a podobně pro ostatní data).
+- Name
+- Image
+- Description
+- Price
+- Weight
+- Number of pieces in stock
+- Category
+- Manufacturer
+- Reviews
 
-I když není vysloveně požadováno perzistentní uložení dat, je doporučováno jeho implementace a za implementaci perzistentního uložení dat budou uděleny **bonusové body**. Způsob uložení (SQL databáze, NoSQL databáze, JSON, XML, CSV...) necháváme na vašem výběru. Pokud bude ale aplikace deklarovat, že data perzistentně uchovává, tak toto bude i otestováno.
+### Category
 
-Minimální rozsah, který je požadován v rámci projektu je popsán v této kapitole.
+- Name
 
-### Funkcionalita e-shopu
-**Není nutno** implementovat celkovou funkcionalitu, kterou byste čekali od e-shopu. Pro začátek - neočekáváme, že se v e-shopu bude dát nakoupit. Není tedy nutno implementovat nákupní košík a podobné funkce. Co je vyžadováno v tomto zadání by se dalo charakterizovat spíše jako katalog zboží.
-Nechceme po Vás, abyste vytvářeli jenom další a další stránky kvůli funkcionalitě. Tento předmět má být spíš o tom, abyste si vyzkoušeli hlavní koncepty. Když budete potřebovat přidat další funkcionalitu, tak ji dopíšete za použití stejných konceptů. Nicméně při tvorbě aplikace **mějte na paměti požadavek rozšiřitelnosti**. Myslete tedy na to, že tento _"katalog zboží"_ by měl být vytvořen tak, aby se z něj dal vytvořit i plně funkční e-shop. Dbejte na to při návrhu datových tříd i při tvorbě stránek.
+### Manufacturer
 
-### Téma e-shopu
-Věc, kterou Vám v tomto zadání **nepředepisujeme** je téma e-shopu. Váš e-shop tedy může prodávat co uznáte za vhodné (myslete ale na to, že řešení budete obhajovat).
+- Name
+- Description
+- Image (logo)
+- Country of origin
+- List of commodities 
 
-### Seznam zboží
-Seznam bude obsahovat všechno zboží dostupné v aplikaci. Bude možno se z něj překliknout na detail zboží a na stránku pro přidání nového zboží. Na stránce se dá zboží filtrovat minimálně dle těchto parametrů:
-   - Kategorie
-   - Cena (minimální, maximální)
-   - Hmotnost (minimální, maximální)
-   - Výrobce
-   - Hodnocení (minimální, maximální)
-   - Je/není na skladě
+### Review
 
-### Detail zboží
-Stránka zobrazuje detail jednoho kusu zboží se všemi informacemi o něm (viz kapitolu Data). Na stránce se také dá přidávat nové hodnocení zboží a zobrazuje se průměrná číselná hodnota hodnocení a textové popisy jednotlivých existujících hodnocení.
+- Stars 
+- Title
+- Description
 
-### Stránka pro editaci zboží
-Stránka, která slouží na editaci zboží. Může se využít na vytvoření nového zboží nebo na editaci již existujícího. Bude obsahovat všechny informace o zboží včetně výrobce a kategorie (viz kapitola Data).
+## Variants of the project
 
-### Seznam výrobců
-Stránka obsahuje všechny výrobce. Bude možno se z ní překliknout na detail výrobce a na stránku pro přidání nového výrobce.
+We have two variants of the projects. It is up to you which one you choose.
 
-### Detail výrobce
-Detail výrobce - stránka zobrazuje všechny informace o konkrétním výrobci včetně seznamu zboží, které vyrábí (viz kapitola Data).
+### Variant A - **backend + DB**
+> This variant is intended for those who want to deep dive in BE and would like to figure out which problems they need to solve in the guts of the application. If you don't have a problem with abstract thinking, this will fit you.
 
-### Stránka pro editaci výrobce
-Stránka, která slouží na editaci výrobce. Může se využít na vytvoření nového výrobce nebo na editaci existujícího. Bude obsahovat všechny informace o výrobci zboží, který je vyrábí (viz kapitola Data).
+- Create BE of an e-shop application with a database. (It is up to you whether you choose a relational or a NoSQL database.)
 
-### Stránka "Vyhledávání"
-Stránka, na které můžete použít textové vyhledávání napříč záznamy v aplikaci. Seznam všech nalezených záznamů se zobrazí na stránce a bude se dát překlikem dostat na detail daného záznamu (v případě hodnocení se odnaviguje na detail zboží, který k hodnocení přísluší). Textově se vyhledává minimálně v těchto atributech:
-- Zboží
-   - Název
-   - Textový popis
-- Výrobce
-   - Název
-   - Textový popis
-   - Země
-- Hodnocení
-   - Textové hodnocení
+- Emphasis will be placed on the technical implementation, correct work with databases, and partially also on the architecture.
 
----
-## Správa projektu - Azure DevOps
-Projekt řeší studenti v týmech. V každém týmu jsou **3 studenti**.
+### Variant B - **frontend + backend + fake DB**
 
-Při řešení projektu týmy využívají Azure DevOps a využívají GIT na sdílení kódu. Do svého projektu přidělte přístup vyučujícím; tj. do Vašeho týmového projektu si v části Members přidejte účet **uciteliw5@vutbr.cz**
+> This variant is intended for those who would like to have a general overview of both BE and FE. If you prefer to have a "nice visible" project that is pleasing to the user's eye, choose this variant.
 
-Účet **uciteliw5@vutbr.cz** budou používat vyučující pro přístup k odevzdávaným souborům. Bez přidání tohoto účtu není možné přistoupit k vašemu projektu a tedy není možné jej ze strany vyučujících hodnotit.
+- Creation of the backend of the e-shop using a fake database (that is, the data will not be persisted between application restarts).
+- It will contain two parts:
+  - BE with an API that contains your own `StorageService` that simulates a real DB (Create, read, update, delete) on a memory level.
+  - FE that consumes this BE. It is up to you whether you choose web or desktop technologies.
+    - Desktop - Avalonia UI / .NET MAUI
+    - Web - Blazor / Vue / React
 
-Návod na přidání člena projektu můžete najít zde: *https://docs.microsoft.com/en-us/vsts/accounts/add-team-members-vs*
+## Handover
 
-Z GITu *musí být viditelná postupná práce na projektu a spolupráce týmu*. Pokud uvidíme, že existuje malé množství nelogických a nepřeložitelných commitů tak nás bude zajímat, jak jste spolupracovali a může to vést na snížení bodového hodnocení. Organizaci pojmenujte **xpc-mw5-2021-team<0000>** dle Vašeho čísla týmu a projekt **project** tak, že výsledné URL pro přístup pro tento imaginární tým by bylo https://dev.azure.com/xpc-mw5-2021-team0000/project. Nezapomeňte nastavit **Work item process** template na **Scrum**.
+### 1. phase - common for both variants
 
-# Odevzdávání
-Odevzdávání projektu má **2 fáze**. V každé fázi se hodnotí jiné vlastnosti projektu. Nicméně fáze na sebe navzájem následují a studenti pokračují v práci na svém kódu i po jeho odevzdání v rámci následující fáze.
+- Data model
+- Functional Web API that persists data between calls
+- CI build
 
-**Kontroluje se kód, který je nahrán v GIT** ve větvi `master`. Vždy se kontroluje **poslední commit před časem odevzdávání** dané fáze projektu. Na commity nahrány po času odevzdávání nebo v jiných větvích nebude brán zřetel. Pokud commit, který máme hodnotit otagujete, např. `v1, v2`, usnadníte nám orietaci při hodnocení.
+### 2. phase - variant A - **backend + DB**
 
-Je silně doporučováno projekty v průběhu semestru konzultovat po přednášce/cvičení, předejdete tak případným komplikacím při odevzdání.
- 
----
-### Fáze 1 – API (50 bodů)
-V první fázi se zaměříme na vytvoření Web API služby. Výstupem tedy bude spustitelný projekt, který obsahuje Web API, poskytuje specifikaci ve standardu OpenAPI (výběr verze necháme na vás) a poskytuje přístup k API pomocí Swagger inspektoru. API obsahuje minimálně metody pro:
-- Zboží
-   - Získání seznamu všeho zboží
-   - Získání detailu zboží
-   - Vytvoření nového zboží
-   - Upravení existujícího zboží
-   - Smazání zboží
-- Výrobce
-   - Získání seznamu všech výrobců
-   - Získání detailu výrobce
-   - Vytvoření nového výrobce
-   - Upravení existujícího výrobce
-   - Smazání výrobce
-- Hodnocení
-   - Získání seznamu všech hodnocení pro konkrétní zboží
-   - Získání detailu hodnocení
-   - Vytvoření nového hodnocení
-   - Upravení existujícího hodnocení
-   - Smazání hodnocení
-- Vyhledávání
-   - Získání výsledků vyhledávání
-Vzorové API, dle kterého se můžete inspirovat bude ukazováno na přednáškách/cvičeních.
+- Code will be in 2 layers (projects) DAL with DB access and API with the API itself
+- Repository and Queue objects used for access to DB
+- usage of [DTOs](https://en.wikipedia.org/wiki/Data_transfer_object)
+    - with mapping between DTO and data models
+- Integration tests of API
+- CI that run tests
 
-V 1. fázi bude také požadováno pokrytí API testy. Minimálně musí být pokryty všechny API endpointy dostatečným počtem testů, aby se pomocí nich dala ověřit správnost funkcionality API. Počítáme tedy s tím, že budete mít vytvořeny testy, které můžeme u sebe spustit a tyto testy otestují správnost Vašeho řešení. To, jak psát testy bude ukázáno v rámci přednášek/cvičení.
-Budeme tedy kontrolovat jak to, že máte napsány správné testy tak to, že aplikace funguje.
+### 2. phase - variant B - **frontend + backend + fake DB**
 
-Hodnotíme:
-- logický návrh tříd
-- splnění funkcionality
-- testy
-- využití abstrakce, zapouzdření, polymorfismu
-- čistotu kódu
-- verzování v GITu po logických částech
-- logické rozšíření datového návrhu nad rámec zadání (bonusové body)
+- FE in the chosen technology stack
+  - FE uses BE for data manipulation
+- Integration tests of API
 
----
-### Fáze 2 - Web (50 bodů)
-V druhé fázi se od vás bude požadovat vytvoření webové aplikace pomocí technologie Blazor. Webová aplikace bude napojena na API vytvořeno v první fázy projektu.
+### Bonus
 
-Hodnotíme:
-- funkčnost celé výsledné aplikace
-- zobrazení jednotlivých informací dle zadání – seznam, detail…
-- čistotu kódu
-- vytvoření dobře vypadající aplikace (bonusové body)
+Bonus points are for
+- Logging
+- Codestyle check to CI pipeline
+- usage of docker
+- ...
 
----
-## Obhajoba
-Obhajoby projektů budou probíhat v **posledním týdnu** semestru. Termíny obhajob budou vyhlášeny v průběhu semestru.
+## Project (repository) management in Github
 
-Na obhajobu se dostaví **celý tým**. Z členů týmu bude cvičícími vybrán 1 student, který obhajobu povede. Na obhajobu **není nutné** mít prezentaci (Powerpoint nebo PDF). Budete nám muset ukázat, jak funguje váš kód, že je správně navržen. Obhajoby budou probíhat osobně, nebo online dle aktuálních omezení v době obhajob.
+Project will be hosted on GitHub in a public git repository. Right now we are not using any organization/team so feel free to use your hosting space.
 
-Připravte se na naše otázky k funkcionalitě jednotlivých tříd a k důvodům jejich členění.
+There are several formal rules for repository:
+> See sample project https://github.com/PadreSVK/xpc-mw5-2023-armagedon. 
+
+* Project name must match regex `xpc-mw5-202[3-9]-(?!-)[a-z-]{4,20}$`, check your name https://regex101.com/r/jrW3fs/1
+* contain proper gitignore file
+* contain README.md
+  * members of the team => (member's emails used in commits)
+  * Choosen variant of the project (A||B)
+* contain License MIT
+
+From git history should be visible work of the whole team. If we figure out that some of the members are inactive we evaluate his score by 0. Collaboration will be done via *common repository with all members*, see [docs](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository) or *via forks*, see [docs](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
+
+
+### Golden Path (happy path)
+
+* work in one repository as collaborators
+* for a chunk of functionality use pull requests
+* make sure that you use the same email to create commits (if you do this, use rebase || ask for help)
+* prepare PR for review 1
+  * PR to branch with HEAD on 1. commit
+  * tag finished commit with `release/2023/01`
+* prepare PR for review 2
+  * PR to branch with HEAD on commit with `release/2023/01` tag
+
+## Suggested tools
+
+### git
+
+* [GitHub Desktop](https://desktop.github.com/)
+* [others](https://git-scm.com/downloads/guis)
+
+### IDE
+
+* [Visual Studio](https://visualstudio.microsoft.com/) **free community edition**
+* [Jetbrains Rider](https://www.jetbrains.com/community/education/#students) **free for students and teachers**
+
+### others
+
+* [GH student pack](https://education.github.com/pack?utm_source=github+jetbrains)
+* [Azure for Students](https://azure.microsoft.com/en-us/free/students/)
+  * [Azure education Hub](https://aka.ms/startEDU)
+

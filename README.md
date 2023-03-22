@@ -1,16 +1,18 @@
-# XPC-MW5 Programming in .NET and C#
 
-## Obsah
+# XPC-MW5 Programming in .NET and C# <!-- omit in toc -->
 
 * [Discord](#discord)
 * [Aktuality k předmětu](#aktuality-k-předmětu)
 * [Přednášky](#přednášky)
 * [Cvičení](#cvičení)
 * [Projekt](#projekt)
+  * [Deadlines](#deadlines)
 * [Výuka - bodové rozdělení](#výuka---bodové-rozdělení)
 * [Q\&A](#qa)
 * [Vyučující](#vyučující)
 * [Užitečné odkazy](#užitečné-odkazy)
+  * [Learning resources](#learning-resources)
+  * [Blogs](#blogs)
 
 ## Discord
 
@@ -30,7 +32,7 @@ Pro komunikaci se využíva Discord. Pri problémech se obraťte na [Patrik Švi
 | FEKT    | T12/SD 1.49 | Čt 15:00-17:50 |
 
 | č   | Datum   | Téma přednášky                                   | Přednášejíci                                                     |
-|-----|---------|--------------------------------------------------|------------------------------------------------------------------|
+| --- | ------- | ------------------------------------------------ | ---------------------------------------------------------------- |
 | 1.  | 09. 02. | Úvod do kurzu, Git, C# and .NET part 1           | [Patrik Švikruha][patrik.svikruha], [Samuel Janek][samuel.janek] |
 | 2.  | 16. 02. | OOP, C# and .NET part 2                          | [Samuel Janek][samuel.janek]                                     |
 | 3.  | 23. 02. | C# and .NET part 3                               | [Samuel Janek][samuel.janek]                                     |
@@ -43,7 +45,7 @@ Pro komunikaci se využíva Discord. Pri problémech se obraťte na [Patrik Švi
 | 10. | 13. 04. | Architecture                                     | [Patrik Švikruha][patrik.svikruha]                               |
 | 11. | 20. 04. | Blazor                                           | [Patrik Švikruha][patrik.svikruha]                               |
 | 12. | 27. 04. | "Vývoj v praxi" (IaC, MVP, etika na code review) | [Patrik Švikruha][patrik.svikruha]                               |
-| 13. | 04. 05. | ?????????                                        | ?????????                                                        |
+| 13. | 04. 05. | Godot                                            | [František Záhora][frantisek.zahora]                             |
 
 ## Cvičení
 
@@ -53,20 +55,21 @@ Cvičení jsou demonstrační. Pokud možno, přineste si vlastní zařízení n
 
 * Zadání projektu najdete [zde](Project/README.md).
 * Projekt bude vypracovaný v 3-členném týmu.
+
+### Deadlines
+
+| Fáze | Deadline   |
+| ---- | ---------- |
+| 1    | 12.04.2022 |
+| 2    | 11.05.2022 |
+
+**Obhajoby sú 18.5 od 15:00**
+
 * Při obhajobě:
   * musí být přítomni všichni členové týmu,
   * obhajovat projekt bude náhodně vybraný člen týmu,
   * nemusíte chodit v obleku...,
   * projekt musí bezpodmínečně obsahovat **Must have features!**
-
-### Deadlines
-
-TODO - upresnit terminy
-
-| Fáze | Deadline   |
-| ---- | ---------- |
-| 1    | 04.04.2022 |
-| 2    | 11.05.2022 |
 
 ## Výuka - bodové rozdělení
 
@@ -83,10 +86,8 @@ TODO - upresnit terminy
 
 * [Patrik Švikruha][patrik.svikruha]
 * [Michal Mrnuštik][michal.mrnustik]
-* [Michal Tichý][michal.tichy]
 * [Samuel Janek][samuel.janek]
-* [Maroš Janota][maros.janota]
-* [Martin Bruzina][martin.bruzina]
+* [František Záhora][frantisek.zahora]
 
 ## Užitečné odkazy
 
@@ -117,7 +118,5 @@ TODO - upresnit terminy
 <!-- links -->
 [patrik.svikruha]: https://patriksvikruha.com/
 [michal.mrnustik]: https://www.linkedin.com/in/michal-mrnu%C5%A1t%C3%ADk-31050b60/
-[michal.tichy]: mailto:edu@tichymichal.net
 [samuel.janek]: mailto:samueljanek17@gmail.com
-[maros.janota]: https://marosjanota.cz/
-[martin.bruzina]: https://bruzina.cz/
+[frantisek.zahora]: https://www.facebook.com/gggcbrno

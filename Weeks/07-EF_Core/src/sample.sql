@@ -1,0 +1,15 @@
+--  get top 100 producst in db called MW5_project where Desciption eq "car"
+SELECT TOP (1000) [Id]
+      ,[Name]
+      ,[Code]
+      ,[Description]
+      ,[CategoryId]
+      ,[BrandId]
+      ,[Price]
+      ,[Stock]
+      ,[Weight]
+      ,[ImageKey]
+      ,[Created]
+      ,[Updated]
+  FROM [MW5_project].[dbo].[Products]
+  where Description =  'Car'

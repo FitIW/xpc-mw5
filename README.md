@@ -60,8 +60,8 @@ Cvičení jsou demonstrační. Pokud možno, přineste si vlastní zařízení n
 
 | Fáze | Deadline   |
 | ---- | ---------- |
-| 1    | 12.04.2022 |
-| 2    | 11.05.2022 |
+| 1    | 12.04.2023 |
+| 2    | 11.05.2023 |
 
 **Obhajoby sú 18.5 od 15:00**
 
